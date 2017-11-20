@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "noImplicitAny": true,
+        "moduleResolution": "node",
+        "sourceMap": false,
+        "strictNullChecks": true,
+        "lib": [
+            "es2016"
+        ],
+        "noUnusedLocals": true,
+        "noUnusedParameters": false,
+        "strict": true,
+        "skipLibCheck": true
+    },
+    "exclude": [
+        "node_modules"
+    ],
+    "files": [
+        "PromiseStream.ts"
+    ]
+}

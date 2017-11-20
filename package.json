@@ -1,0 +1,32 @@
+{
+  "name": "promise-stream",
+  "version": "1.0.0",
+  "description": "A library that abstracts some rxjs Observable functionality with better handling of Promises",
+  "main": "PromiseStream.js",
+  "dependencies": {
+    "rxjs": "^5.5.2"
+  },
+  "devDependencies": {
+    "tslint": "^5.8.0",
+    "typescript": "^2.6.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tslint -c tslint.json --project tsconfig.json && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BTMorton/promise-stream.git"
+  },
+  "keywords": [
+    "Observable",
+    "Promise",
+    "Stream"
+  ],
+  "author": "Ben Morton <ben.morton91@gmail.com> (http://bmorton.co.uk/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BTMorton/promise-stream/issues"
+  },
+  "homepage": "https://github.com/BTMorton/promise-stream#readme"
+}
